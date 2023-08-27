@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sign up page</title>
+    <style>
+        form {
+            background-color: grey;
+            width: 400px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin-left: 4em;
+            margin-top: 8px;
+        }
+
+        label {
+            display: block;
+        }
+
+        input[type= "text"],
+        input[type= "email"],
+        input[type= "password"] {
+            display: block;
+            padding: 10px;
+            color: rgb(0, 255, 242);
+            border-radius: 3px;
+            border: none;
+            margin-block: 5px;
+            caret-color: brown;
+            /*background-color: rgb(38, 0, 255);*/
+        }
+
+        a {
+            /*margin-left: 6em;*/
+            float: right;
+            margin-block: 8px;
+            margin-right: 7px;
+            font-style: italic;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .center {
+            margin-left: 115px;
+        }
+
+        
+        i {
+            font-size: 49px;
+            margin-inline: 3.5em;
+            color: blue;
+            display: block;
+        }
+
+        button {
+            display: block;
+            padding: 20px 100px;
+            background-color: rgb(34, 34, 126);
+            border: none;
+            border-radius: 20em;
+            margin-left: 4.5em;
+            margin-top: 8pt;
+            color: #fff;
+            font-family: cursive;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <i class="fab fa-facebook" aria-hidden="true"></i>
+        <h1>Facebook</h1>
+        <div class="center">
+            <label for="name">First Name</label>
+            <input type="text" placeholder="Your first name">
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Your last name">
+            <label for="password">Password</label>
+            <input type="password" placeholder="password">
+        </div>
+        <a href="#">Forgot password</a>
+        <button>Sign in</button>
+    </form>
+</body>
+</html>
